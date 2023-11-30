@@ -18,7 +18,7 @@ const questions = [
         ]
     },
     {
-        question: "A noSQL database that has no schema and stores data in BSON format?",
+        question: "A NoSQL database that has no schema and stores data in BSON format?",
         answers: [
             { text: "MySQL", correct: false},
             { text: "PostgreSQL", correct: false},
@@ -77,7 +77,7 @@ function resetState() {
     } 
 }
 
-function selectAnswer() {
+function selectAnswer(e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
     if(isCorrect) {
