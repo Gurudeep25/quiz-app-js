@@ -34,6 +34,15 @@ const questions = [
             { text: "Node JS", correct: false},
             { text: "Bootstrap", correct: false},
         ]
+    },
+    {
+        question: "Is web development fun?",
+        answers: [
+            { text: "IDK", correct: false},
+            { text: "Oh, Yes!", correct: true},
+            { text: "May be", correct: false},
+            { text: "Little fun", correct: false},
+        ]
     }
 ];
 
